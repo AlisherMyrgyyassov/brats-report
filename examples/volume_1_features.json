@@ -1,0 +1,39 @@
+{
+  "computed": {
+    "tumor_type": "Glioma",
+    "bbox_extent_cm_D_H_W": [
+      7.8,
+      9.7,
+      11.1
+    ],
+    "bbox_axis_note": "Extents follow stacked slice index (D), image row (H), image column (W); not radiological AP/TV/CC.",
+    "num_lesions_et": 1,
+    "percent_ncr_net": 8,
+    "percent_ed": 75,
+    "percent_et": 17,
+    "total_tumor_voxels": 183546,
+    "voxel_spacing_mm": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "not_computed": {
+    "survival_days": null,
+    "midline_shift_mm": null,
+    "midline_shift_direction": null,
+    "ventricle_level": null,
+    "edema_crosses_midline": null,
+    "asymmetric_ventricles": null,
+    "enlarged_ventricles": null,
+    "anatomic_location": null,
+    "ventricles_invaded": null,
+    "proportion_enhancing_percent": null,
+    "deep_wm_invaded": null,
+    "multifocal": null
+  },
+  "visualization_paths": [
+    "volume_1_slice68_overlay.png",
+    "segmentation_legend.png"
+  ]
+}
